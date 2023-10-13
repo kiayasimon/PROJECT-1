@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>"Friends" Trivia</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.png">
+  <script src="script.js"defer></script>
+</head>
+<body>
+  <div id="menuBar" class="sideMenu">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">Your Points</a>
+    <p id="points"></p>
+    <h1 id="win-or-lose"></h1>
+  </div>
+
+  <div id="mainMenu">
+    <button class="openMenu" onclick="openNav()">☰</button>
+  </div>
+ 
+  <h1>FRIEND or FOE ?</h1>
+  <div>
+    <h3>Let's see who's a <em>real</em> fan!</h3>
+    <img id="img1" src="https://media-s3-us-east-1.ceros.com/editorial-content/images/2019/08/07/78c02689e84d7491cd92e8e8ec1eba43/friends.png">
+  </div>
+
+  <button id="levelOneButton">Let's Play!</button>
+  <div class="messageBoard"></div>
+  <div class="game-over"></div>
+
+  <div>
+    <p class="question"></p>
+    <ul class="choiceTags">
+      <li id="choice1Tag"></li>
+      <li id="choice2Tag"></li>
+      <li id="choice3Tag"></li>
+    </ul>
+
+  </div>
+
+  </div>
+</body>
+</html>

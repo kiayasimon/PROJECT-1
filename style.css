@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background: #4997D0;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 65px;
+    border: 5px solid rgb(21, 20, 25) ;
+    border-radius: 18px;
+    width: 500px;
+    margin: 30px auto;
+}
+
+h3 {
+   font-family: helvetica, sans-serif;
+   font-size: 15px;
+   color:rown;
+}
+
+#img1 {
+    width: 660px;
+    height: 300px;
+}
+
+
+.sideMenu {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sideMenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#F5968D;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sideMenu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sideMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openMenu {
+  font-size: 75px;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  float: left;
+  margin-top:35px;
+  padding-left: 70px;
+  justify-content: fixed;
+
+}
+
+
+#mainMenu {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+#levelOneButton {
+    background-color: #111;
+    color:#F5968D;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 25px;
+    border: none;
+    font-size: 40px;
+    border-radius: 30px;
+    font-family: 'Londrina Shadow', cursive;
+    
+}
+
+
+.choiceTags {
+    list-style-type: none;
+}
+
+.messageBoard {
+    font-size: 100PX;
+    font-family: 'Londrina Shadow', cursive;
+    color: #F5968D;
+    background-color: ;
+    align-self: center;
+    border-radius: 18px;
+    width: 230px;
+    margin: 30px auto;
+}
+
+.question {
+    font;
+}
+
+/* li {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #F5968D;
+} */
+
+.active-question {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #F5968D;
+}
+
+#points {
+    color: white;
+}
+
+#win-or-lose {
+    color: white;
+}
+
+.game-over {
+    font-size: 100PX;
+    font-family: 'Londrina Shadow', cursive;
+    color: #F5968D;
+    background-color: ;
+    align-self: center;
+    border-radius: 18px;
+    width: 230px;
+    margin: 30px auto;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    55%,
+    45% {
+      color: #111;
+    }
+}
